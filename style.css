@@ -1,0 +1,58 @@
+/* 全局樣式設置 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* 履歷表容器樣式 */
+.resume-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 表格樣式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* 表格標題樣式 */
+h1 {
+    text-align: center;
+    color: #0056b3;
+    font-size: 48px;
+    font-family: '標楷體';
+    margin-bottom: 10px;
+}
+
+/* 表格中的單元格樣式 */
+th, td {
+    border: 1px solid #0056b3;
+    padding: 10px; /* 這裡是內邊距，讓文字與邊框有距離 */
+    text-align: left;
+    vertical-align: top;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* 段落內文字靠左對齊，並調整間距 */
+.section-title {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 標題欄與圖片欄的特殊樣式 */
+.profile-picture img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
